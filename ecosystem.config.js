@@ -1,10 +1,10 @@
 module.exports = {
   apps: [
     {
-      name: "cathabot-landing",
+      name: "mchrama-landing",
       script: "yarn",
       args: "start",
-      cwd: "/var/www/cathabot/cathabot",
+      cwd: "/var/www/cathabot/portofolio",
       instances: 1,
       autorestart: true,
       watch: false,
