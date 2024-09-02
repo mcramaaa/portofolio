@@ -10,8 +10,6 @@ import { useEffect } from "react";
 export default function Home() {
   const { section } = useSection();
 
-  console.log(section);
-
   const scrollToSection = (id: string) => {
     if (id === "home") {
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -25,7 +23,6 @@ export default function Home() {
 
   useEffect(() => {
     scrollToSection(section);
-    console.log("h");
   }, [section]);
   return (
     <main className="relative overflow-hidden bg-gradient-to-r from-brand-dark to-brand-grey">
