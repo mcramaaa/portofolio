@@ -12,7 +12,7 @@ export default function About() {
         <div className="relative aspect-square w-full rounded-full max-w-60 overflow-hidden">
           <Image alt="mochamad ramadhani" src={"/assets/photo.png"} fill />
         </div>
-        <div className="flex justify-center gap-2 text-xl lg:text-3xl font-bold uppercase">
+        <div className="flex flex-col justify-center text-xl lg:text-3xl font-bold uppercase">
           <h2>{ABOUTME.firstName}</h2>
           <h2 className="text-brand">{ABOUTME.lastName}</h2>
         </div>
