@@ -19,7 +19,7 @@ jobs:
           script: |
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
-            cd /var/www/cathabot/portoflio
+            cd /var/www/cathabot/portofolio
             git reset --hard
             git pull origin main
             yarn install
