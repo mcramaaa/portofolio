@@ -57,7 +57,7 @@ export const ABOUTME = {
   onlineProfile: [
     {
       icon: <FaGithub />,
-      url: "https://glints.com/id/profile/public/a6d2f74d-7598-4147-8d73-05d1f4abe816",
+      url: "https://github.com/mcramaaa",
     },
     {
       icon: <FaLinkedinIn />,
