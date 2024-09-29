@@ -28,16 +28,16 @@ export const NAVMENU = [
     label: "Home",
     refKey: "home",
   },
-  {
-    value: "#Pricing",
-    label: "Pricing",
-    refKey: "pricing",
-  },
-  {
-    value: "#Testimoni",
-    label: "Testimoni",
-    refKey: "testi",
-  },
+  // {
+  //   value: "#Pricing",
+  //   label: "Pricing",
+  //   refKey: "pricing",
+  // },
+  // {
+  //   value: "#Testimoni",
+  //   label: "Testimoni",
+  //   refKey: "testi",
+  // },
   {
     value: "/contact",
     label: "Contact",
@@ -175,20 +175,20 @@ export const FOOTER = {
   address:
     "Skyloft Soho No.1868 Ciputra World, Jl. Mayjen Sungkono No.89, Gunung Sari, Dukuhpakis, Surabaya, East Java 60224",
   sosmed: [
-    {
-      url: "/",
-      icon: <FaFacebookF />,
-    },
+    // {
+    //   url: "/",
+    //   icon: <FaFacebookF />,
+    // },
     {
       url: "https://www.instagram.com/alphasosmed.project/",
       icon: <FaInstagram />,
     },
+    // {
+    //   url: "/",
+    //   icon: <FaTwitter />,
+    // },
     {
-      url: "/",
-      icon: <FaTwitter />,
-    },
-    {
-      url: "/",
+      url: "https://api.whatsapp.com/send?phone=6281330129266&text=Hai%20Mch%20Rama",
       icon: <FaWhatsapp />,
     },
   ],

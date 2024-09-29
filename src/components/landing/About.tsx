@@ -12,7 +12,7 @@ export default function About() {
         <div className="relative aspect-square w-full rounded-full max-w-60 overflow-hidden">
           <Image alt="mochamad ramadhani" src={"/assets/photo.png"} fill />
         </div>
-        <div className="flex flex-col justify-center text-xl lg:text-3xl font-bold uppercase">
+        <div className="flex text-center flex-col justify-center text-xl lg:text-3xl font-bold uppercase">
           <h2>{ABOUTME.firstName}</h2>
           <h2 className="text-brand">{ABOUTME.lastName}</h2>
         </div>
@@ -23,16 +23,20 @@ export default function About() {
         </div>
         <div className="flex gap-5 mt-4">
           {ABOUTME.onlineProfile.map((item, i) => (
-            <Link key={i} href={item.url}>
+            <Link key={i} target="_blank" href={item.url}>
               <p className="p-2 border rounded-full">{item.icon}</p>
             </Link>
           ))}
         </div>
         <div className="mt-4">
-          <button className="flex items-center gap-3 border px-3 py-1 rounded-full bg-white/20">
+          <Link
+            href={"/assets/curriculum vitae Mochamad Ramadhani.pdf"}
+            target="_blank"
+            className="flex items-center gap-3 border px-3 py-1 rounded-full bg-white/20"
+          >
             Download resume
             <IoMdDownload />
-          </button>
+          </Link>
         </div>
       </div>
       <div className="w-full p-10 bg-brand-darklight md:col-span-2 lg:col-span-3 rounded-3xl">
