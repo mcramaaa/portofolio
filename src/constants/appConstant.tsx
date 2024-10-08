@@ -86,6 +86,10 @@ export const ABOUTME = {
       value: 80,
     },
     {
+      title: "React Native",
+      value: 80,
+    },
+    {
       title: "Next Js",
       value: 90,
     },
