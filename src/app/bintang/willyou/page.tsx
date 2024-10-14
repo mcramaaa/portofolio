@@ -5,7 +5,7 @@ export default function page() {
   return (
     <div className="bg-[url('/assets/bg.jpeg')]">
       <div className="bg-black/80 px-10 gap-10  py-20 pb-20 w-screen min-h-screen text-white flex flex-col justify-center items-center">
-        <div className="relative aspect-square w-3/4 rounded-full overflow-hidden border-5 border-brand">
+        <div className="relative aspect-square w-72 rounded-full overflow-hidden border-5 border-brand">
           <Image
             alt="bintang dectyanefa putri zafira"
             src={"/assets/we.jpeg"}
@@ -13,7 +13,7 @@ export default function page() {
             className="object-cover"
           />
         </div>
-        <p className="text-center">
+        <p className="text-center lg:mx-64 xl:mx-72">
           Sayang, setiap detik dari setiap waktu yang kita habiskan selama ini
           membuatku semakin yakin bahwa kamu adalah satu satunya wanita bisa
           membuatku bersyukur dengan 1 wanita di hidupku. Cintaku padamu tumbuh
