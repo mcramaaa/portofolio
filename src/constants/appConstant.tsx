@@ -140,7 +140,7 @@ export const ABOUTME = {
       icon: <FaFacebookF />,
     },
     {
-      url: "https://www.instagram.com/alphasosmed.project/",
+      url: "https://www.instagram.com/mch.rama__/",
       icon: <FaInstagram />,
     },
     {
