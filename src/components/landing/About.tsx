@@ -10,7 +10,12 @@ export default function About() {
     <div className="my-12 mx-4 grid grid-cols-1 lg:grid-cols-4 lg:mx-72 overflow-hidden bg-brand-grey text-white  drop-shadow-md duration-500 transition-all rounded-3xl">
       <div className="flex flex-col w-full items-center gap-3 justify-center p-10">
         <div className="relative aspect-square w-full rounded-full max-w-60 overflow-hidden">
-          <Image alt="mochamad ramadhani" src={"/assets/photo.png"} fill />
+          <Image
+            alt="mochamad ramadhani"
+            src={"/assets/photo2.webp"}
+            fill
+            className="bg-white/5 object-cover"
+          />
         </div>
         <div className="flex text-center flex-col justify-center text-xl lg:text-3xl font-bold uppercase">
           <h2>{ABOUTME.firstName}</h2>

@@ -61,7 +61,12 @@ export default function Hero() {
       </div>
       <div className="order-first grid place-items-center">
         <div className="relative aspect-square w-full rounded-full max-w-96 overflow-hidden">
-          <Image alt="mochamad ramadhani" src={"/assets/photo.png"} fill />
+          <Image
+            alt="mochamad ramadhani"
+            src={"/assets/photo2.webp"}
+            fill
+            className="bg-white/5 object-cover"
+          />
         </div>
       </div>
     </div>
