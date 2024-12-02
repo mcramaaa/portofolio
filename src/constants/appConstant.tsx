@@ -50,7 +50,7 @@ export const ABOUTME = {
   lastName: "Ramadhani",
   position: ["Designer", "Programmer"],
   about:
-    "I am a Front End Developer with a Bachelor's degree in Mathematics from UINSA, currently working at PT. MAGNER INTERNATIONAL GROUP and PT. BBIZ TEKNOLOGI SOLUSI. Since August 2023, I have been developing and designing web applications and websites for e-commerce, company profiles, catalogs, and back-office purposes. I have expertise in JavaScript libraries, TypeScript, Next.js, sustainable IT, and React, with some knowledge of Nest.js. I closely collaborate with back-end developers, designers, and clients, and also design graphic elements using Adobe Photoshop and Illustrator, combining creativity with technical skills to deliver high-quality, user-friendly web products.",
+    "I am a Fullstack Developer with a Bachelor's degree in Mathematics from Universitas Islam Negeri Sunan Ampel (UINSA). I have experience designing and developing mobile and web applications, as well as websites for e-commerce, company profiles, catalogs, and back-office systems. Proficient in JavaScript libraries, TypeScript, Next.js, and React, with basic knowledge of Nest.js and Express.js. I enjoy learning new things and tackling challenges, and I am accustomed to collaborating with back-end teams, designers, and clients to create high-quality, user-friendly web products.",
   email: "rama28moch@gmail.com",
   phone: "+6281234567890",
   address: "Sidoarjo, Jawa Timur, Indonesia",
