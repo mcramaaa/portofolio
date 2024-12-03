@@ -49,6 +49,31 @@ export const ABOUTME = {
   firstName: "Mochamad",
   lastName: "Ramadhani",
   position: ["Designer", "Programmer"],
+  education: [
+    {
+      name: "UIN Sunan Ampel Surabaya",
+      prodi: "Bachelor of Mathematics",
+      year: "Aug 2018 - Nov 2022",
+      value: "3.44 / 4.00",
+    },
+  ],
+  organitation: [
+    {
+      name: "Olimpiade Matematika UINSA 2019",
+      position: "Wakil Ketua Pelaksana",
+      year: "Nov 2018 - Oct 2019",
+    },
+    {
+      name: "Olimpiade Matematika UINSA 2020",
+      position: "Ketua Pelaksana",
+      year: "Nov 2019 - Oct 2020",
+    },
+    {
+      name: "Olimpiade Matematika UINSA 2021",
+      position: "BPH Teknis",
+      year: "Nov 2020 - Oct 2021",
+    },
+  ],
   about:
     "I am a Fullstack Developer with a Bachelor's degree in Mathematics from Universitas Islam Negeri Sunan Ampel (UINSA). I have experience designing and developing mobile and web applications, as well as websites for e-commerce, company profiles, catalogs, and back-office systems. Proficient in JavaScript libraries, TypeScript, Next.js, and React, with basic knowledge of Nest.js and Express.js. I enjoy learning new things and tackling challenges, and I am accustomed to collaborating with back-end teams, designers, and clients to create high-quality, user-friendly web products.",
   email: "rama28moch@gmail.com",
@@ -70,66 +95,84 @@ export const ABOUTME = {
   ],
   skils: [
     {
+      icon: <FaGithub />,
       title: "Github",
       value: 85,
     },
     {
+      icon: <FaJsSquare />,
       title: "JavaScript",
       value: 90,
     },
     {
+      icon: <BiLogoTypescript className="text-9xl" />,
       title: "TypeScript",
       value: 90,
     },
     {
+      icon: <FaReact />,
       title: "React",
       value: 80,
     },
     {
+      icon: <FaReact />,
       title: "React Native",
       value: 80,
     },
     {
+      icon: <SiNextdotjs />,
+
       title: "Next Js",
       value: 90,
     },
     {
+      icon: <SiNestjs />,
       title: "Nest Js",
       value: 60,
     },
     {
+      icon: <SiMysql />,
+
       title: "MySQL",
       value: 75,
     },
     {
+      icon: <SiNginx />,
       title: "Nginx",
       value: 75,
     },
     {
+      icon: <FaUbuntu />,
       title: "Ubuntu Linux",
       value: 95,
     },
     {
+      icon: <IoLogoFigma />,
       title: "Figma",
       value: 95,
     },
     {
+      icon: <SiAdobepremierepro key={11} />,
       title: "Adobe Premiere Pro",
       value: 90,
     },
     {
+      icon: <SiAdobeaftereffects key={12} />,
       title: "Adobe After Effects",
       value: 90,
     },
     {
+      icon: <SiAdobeillustrator key={13} />,
       title: "Adobe Illustrator",
       value: 100,
     },
     {
+      icon: <SiAdobephotoshop key={14} />,
       title: "Adobe Photoshop",
       value: 85,
     },
     {
+      icon: <SiAdobeindesign key={15} />,
       title: "Adobe Indesign",
       value: 90,
     },

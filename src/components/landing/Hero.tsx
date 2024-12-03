@@ -22,19 +22,19 @@ export default function Hero() {
             <TypeAnimation
               preRenderFirstString={true}
               sequence={[
-                1000,
+                2000,
                 "WEB DEVELOPER",
-                1000,
+                2000,
                 "APPS DEVELOPER",
-                1000,
+                2000,
                 "DESIGNER",
-                1000,
+                2000,
                 "PHOTO EDITOR",
-                1000,
+                2000,
                 "VIDEO EDITOR",
-                1000,
+                2000,
               ]}
-              speed={65}
+              speed={20}
               repeat={Infinity}
             />
           </div>

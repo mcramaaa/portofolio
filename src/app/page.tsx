@@ -1,7 +1,8 @@
 "use client";
 
 import About from "@/components/landing/About";
-import Hero from "@/components/landing/Hero";
+import HeroV2 from "@/components/landing/HeroV2";
+import Skill from "@/components/landing/Skill";
 import Navbar from "@/components/layout/Navbar";
 import Marque from "@/components/Marque";
 import { useSection } from "@/zustand/useNav";
@@ -25,13 +26,17 @@ export default function Home() {
     scrollToSection(section);
   }, [section]);
   return (
-    <main className="relative overflow-hidden bg-gradient-to-r from-brand-dark to-brand-grey">
-      <div id="home" className="min-h-screen  relative">
+    <main className="relative overflow-hidden bg-gradient-to-r from-black to-brand-dark">
+      <div id="home" className="relative">
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
+        <HeroV2 />
         <Marque />
       </div>
-      <About />
+      <div className="pb-10">
+        <About />
+        <Skill />
+      </div>
     </main>
   );
 }

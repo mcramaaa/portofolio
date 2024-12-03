@@ -43,7 +43,7 @@ export default function Provider({ children }: { children: ReactNode }) {
       <Toaster />
       <div
         className={`${
-          showNavbar ? "sticky top-0" : "absolute -top-28"
+          showNavbar ? "sticky top-0" : "absolute -top-56"
         }  z-[60] duration-300 drop-shadow-md bg-brand-dark`}
       >
         <Navbar />
