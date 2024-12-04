@@ -26,12 +26,22 @@ export default function Home() {
     scrollToSection(section);
   }, [section]);
   return (
-    <main className="relative overflow-hidden bg-gradient-to-r from-black to-brand-dark">
-      <div id="home" className="relative">
-        <Navbar />
-        {/* <Hero /> */}
-        <HeroV2 />
-        <Marque />
+    <main className="relative overflow-hidden bg-black">
+      <div id="home" className="relative h-screen">
+        <video
+          autoPlay
+          loop
+          // playsInline
+          muted
+          className="object-cover w-full h-full absolute pointer-events-none "
+          src={`https://videos.pexels.com/video-files/29607597/12742138_1920_1080_30fps.mp4`}
+        ></video>
+        <div className="relative bg-gradient-to-r from-black/90 to-brand-dark/80 h-full">
+          <Navbar />
+          <HeroV2 />
+          <Marque />
+        </div>
+        <div className="absolute bottom-0 h-20 w-full bg-gradient-to-t from-black to-black/0"></div>
       </div>
       <div className="pb-10">
         <About />
